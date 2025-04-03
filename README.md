@@ -1,5 +1,7 @@
 # Super Auto Spa
 
+Website for [superautospa.com](superautospa.com).
+
 ## Generate GitHub Access Token
 
 1. Sign in to your GitHub account at [github.com](github.com).
