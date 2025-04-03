@@ -1,6 +1,6 @@
 # Super Auto Spa
 
-Website for [superautospa.com](https://uperautospa.com).
+Website for [superautospa.com](https://superautospa.com).
 
 ## Generate GitHub Access Token
 
