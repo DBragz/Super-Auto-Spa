@@ -8,33 +8,33 @@
 
 1. Install web application dependencies.
 
-  ```shell
-  npm install
-  ```
+    ```shell
+    npm install
+    ```
 
 ## Development
 
 1. Start the development server.
 
-  ```shell
-  npm dev
-  ```
+    ```shell
+    npm dev
+    ```
 
 ## Build
 
 1. Build the web application.
 
-  ```shell
-  npm build
-  ```
+    ```shell
+    npm build
+    ```
 
 ## Preview
 
 1. Run the production version of application locally.
 
-  ```shell
-  npm preview
-  ```
+    ```shell
+    npm preview
+    ```
 
 ## Authors
 
