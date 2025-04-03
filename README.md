@@ -1,10 +1,10 @@
 # Super Auto Spa
 
-Website for [superautospa.com](superautospa.com).
+Website for [superautospa.com](https://uperautospa.com).
 
 ## Generate GitHub Access Token
 
-1. Sign in to your GitHub account at [github.com](github.com).
+1. Sign in to your GitHub account at [github.com](https://github.com).
 
 2. Click on your profile picture in the upper right corner, and select **"Settings."**
 
