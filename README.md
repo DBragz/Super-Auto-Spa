@@ -3,7 +3,7 @@
 ## Generate GitHub Access Token
 
 1. Sign in to your GitHub account at [github.com](github.com).
-   
+
 2. Click on your profile picture in the upper right corner, and select **"Settings."**
 
 3. In the left sidebar, click on **"Developer settings."**
@@ -13,12 +13,12 @@
 5. Click on **"Tokens (classic)"** if you want to generate a classic token.
 
 6. Click the **"Generate new token"** button.
-   
+
 7. In the form that appears, give your token a descriptive name and select the scopes or permissions you'd like to grant this token. For basic access, you might select:
 
-- `repo` (to access your private repositories),
-- `workflow` (to access GitHub Actions workflows),
-- any other necessary scopes based on your needs.
+    - `repo` (to access your private repositories),
+    - `workflow` (to access GitHub Actions workflows),
+    - any other necessary scopes based on your needs.
 
 8. After configuring the permissions, click **"Generate token."**
 
@@ -44,7 +44,7 @@ Make sure you keep your token secure, as it provides access to your GitHub accou
 
 2. **Configure Git** (if you haven’t already):
 
-- Set your username and email:
+    - Set your username and email:
 
     ```shell
     git config --global user.name "Your Name"
@@ -56,7 +56,7 @@ Make sure you keep your token secure, as it provides access to your GitHub accou
 - Use your GitHub access token from the secret you created. Replace `your-username` with your GitHub username, `your-repo` with your repository name, and `YOUR_SECRET_NAME` with the name of your secret:
 
     ```shell
-    git remote add origin https://your-username:$(echo             $YOUR_SECRET_NAME)@github.com/your-username/your-repo.git
+    git remote add origin https://your-username:$(echo $YOUR_SECRET_NAME)@github.com/your-username/your-repo.git
     ```
 
 ## Requirements
