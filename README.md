@@ -38,6 +38,27 @@ Make sure you keep your token secure, as it provides access to your GitHub accou
 
 5. Click **Add Secret**.
 
+## Use GitHub Access Token as Secret
+
+1. Open the **Shell** tool from the Tools pane in Replit.
+
+2. **Configure Git** (if you haven’t already):
+
+- Set your username and email:
+
+    ```shell
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    ```
+
+3. Add your remote repository:
+
+- Use your GitHub access token from the secret you created. Replace `your-username` with your GitHub username, `your-repo` with your repository name, and `YOUR_SECRET_NAME` with the name of your secret:
+
+    ```shell
+    git remote add origin https://your-username:$(echo             $YOUR_SECRET_NAME)@github.com/your-username/your-repo.git
+    ```
+
 ## Requirements
 
 - [Node.js 20.18.1+](https://nodejs.org/)
