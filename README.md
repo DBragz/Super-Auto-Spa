@@ -1,20 +1,40 @@
-## Super Auto Spa
+# Super Auto Spa
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## Requirements
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+- [Node.js 20.18.1+](https://nodejs.org/)
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+## Installation
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+1. Install web application dependencies.
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+  ```shell
+  npm install
+  ```
 
-### Typescript
+## Development
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+1. Start the development server.
+
+  ```shell
+  npm dev
+  ```
+
+## Build
+
+1. Build the web application.
+
+  ```shell
+  npm build
+  ```
+
+## Preview
+
+1. Run the production version of application locally.
+
+  ```shell
+  npm preview
+  ```
 
 ## Authors
 
